@@ -1,0 +1,12 @@
+def MaxBilangan (a, b, c, d):
+    m=a
+    if (b>m):
+        m=b
+    if (c>m):
+        m=c
+    if (d>m):
+        m=d
+    return m
+a, b, c, d = map(int, input().split())
+hasil = MaxBilangan(a, b, c, d)
+print("%d" % hasil)
